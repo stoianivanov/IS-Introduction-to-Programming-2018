@@ -21,5 +21,5 @@ TASK 03
 Вход: 123 Изход: 1111011
 
 TASK 04 - Bonus task
-Създайте триъгълника на Паскал (https://en.wikipedia.org/wiki/Pascal%27s_triangle)
+Създайте триъгълника на Паскал [I'm an inline-style link](https://en.wikipedia.org/wiki/Pascal%27s_triangle)
 
