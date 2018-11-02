@@ -15,14 +15,23 @@
 Да се напише програма, която по въведени стойност на заема, брой на месеци за които трябва да се върне и лихвен процент, да пресмята и извежда на конзолата  месечната вноска и сумата на кредита след натрупаните лихви.
 ##### Пример:
 Input:
+
 Value for loan:20000
+
 Number of months:12
+
 Interest rate:3
+
 Output:
+
 Monthly interest rate:0.25
+
 q=1.0025
+
 Monthly payment:1693.87
+
 The total amount to be returned:20326.5
+
 
 
 ## Task 03-Narcissistic number
