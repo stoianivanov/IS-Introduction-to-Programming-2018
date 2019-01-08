@@ -1,0 +1,28 @@
+#include <iostream>
+
+const int SIZE = 100;
+void alpha() {
+    for (char ch = 'A'; ch <= 'z'; ++ch) {
+        std::cout << ch << " ";
+        if (ch == 'Z') {
+            std::cout << std::endl;
+            ch += 'a' - 'Z' - 1;
+        }
+    }
+}
+ int strlen(char* text){
+        int count = 0;
+        for(int i = 0; text[i] != '\0'; i++){
+            ++count;
+        }
+        return count;
+    }
+int main()
+{
+    char text[100];
+    std::cin >> std::ws;
+    std::cin.getline(text, 100, '?');
+
+    std::cout<< strlen(text);
+    return 0;
+}
